@@ -39,13 +39,13 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-
-  <Hotel Rating="4.0">
-    <Name>Graduate Tempe</Name>
-    <Phone>480-967-9431</Phone>
+        
+  <Hotel Rating="4.5">
+    <Name>Omni Tempe Hotel at ASU</Name>
+    <Phone>602-794-8600</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>225</Number>
-      <Street>E Apache Blvd</Street>
+      <Street>7 E University Dr</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
