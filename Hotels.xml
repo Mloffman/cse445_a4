@@ -81,22 +81,22 @@
     <Phone>480-967-2300</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>510</Number>
-      <Street> S Forest Ave</Street>
+      <Street>S Forest Ave</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.6"> 
-    <Name>Drury Inn & Suites Phoenix Airport</Name>
+  <Hotel Rating="4.3"> ///
+    <Name>Encore Boston Harbor</Name>
     <Phone>602-437-8400</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>3333</Number>
-      <Street>E University Dr</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85034</Zip>
+    <Address NearestAirport="Boston Logan">
+      <Number>1</Number>
+      <Street>Broadway</Street>
+      <City>Everett</City>
+      <State>MA</State>
+      <Zip>857-770-7000</Zip>
     </Address>
   </Hotel>
 
@@ -129,7 +129,7 @@
     <Phone>480-968-6800</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>108</Number>
-      <Street>E University D</Street>
+      <Street>E University Dr</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
