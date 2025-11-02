@@ -15,7 +15,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.5">
+  <Hotel Rating="4.4"> 
     <Name>Tempe Mission Palms</Name>
     <Phone>480-894-1400</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -27,7 +27,7 @@
     </Address>
   </Hotel>
 
-  <Hotel>
+  <Hotel> 
     <Name>Hyatt Place Tempe / Phoenix Airport</Name>
     <Phone>480-804-9544</Phone>
     <Phone>888-591-1234</Phone>
@@ -40,20 +40,32 @@
     </Address>
   </Hotel>
         
-  <Hotel Rating="4.5">
+  <Hotel Rating="4.5"> 
     <Name>Omni Tempe Hotel at ASU</Name>
     <Phone>602-794-8600</Phone>
     <Address NearestAirport="Sky Harbor">
-      <Number>225</Number>
-      <Street>7 E University Dr</Street>
+      <Number>7</Number>
+      <Street>E University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+       
+  <Hotel> 
+    <Name>SpringHill Suites by Marriott Phoenix Tempe/Airport</Name>
+    <Phone>480-968-8222</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>1601</Number>
+      <Street>W Rio Salado Pkwy</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
   </Hotel>
 
-  <Hotel>
-    <Name>Courtyard by Marriott Tempe Downtown</Name>
+  <Hotel Rating="4.1"> 
+    <Name>Sonesta Select Tempe Downtown</Name>
     <Phone>480-966-2800</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>601</Number>
@@ -63,73 +75,61 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-
-  <Hotel Rating="4.3">
-    <Name>AC Hotel Phoenix Tempe / Downtown</Name>
-    <Phone>480-642-6140</Phone>
+       
+  <Hotel>
+    <Name>Residence Inn by Marriott Tempe Downtown/University</Name>
+    <Phone>480-967-2300</Phone>
     <Address NearestAirport="Sky Harbor">
-      <Number>100</Number>
-      <Street>E Rio Salado Pkwy</Street>
+      <Number>510</Number>
+      <Street> S Forest Ave</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
   </Hotel>
 
-  <Hotel>
-    <Name>Hilton Garden Inn Phoenix Airport North</Name>
-    <Phone>602-306-2323</Phone>
+  <Hotel Rating="4.6"> 
+    <Name>Drury Inn & Suites Phoenix Airport</Name>
+    <Phone>602-437-8400</Phone>
     <Address NearestAirport="Sky Harbor">
-      <Number>3838</Number>
-      <Street>E Van Buren St</Street>
+      <Number>3333</Number>
+      <Street>E University Dr</Street>
       <City>Phoenix</City>
       <State>AZ</State>
-      <Zip>85008</Zip>
+      <Zip>85034</Zip>
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.1">
-    <Name>Aloft Tempe</Name>
-    <Phone>480-621-3300</Phone>
+  <Hotel> 
+    <Name>Graduate by Hilton Tempe</Name>
+    <Phone>480-967-9431</Phone>
     <Address NearestAirport="Sky Harbor">
-      <Number>951</Number>
-      <Street>E Playa Del Norte Dr</Street>
+      <Number>225</Number>
+      <Street>E Apache Blvd</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
   </Hotel>
 
-  <Hotel>
-    <Name>Hampton Inn &amp; Suites Phoenix/Tempe</Name>
-    <Phone>480-410-6400</Phone>
+  <Hotel > 
+    <Name>University Inn Tempe/ASU</Name>
+    <Phone>480-966-7221</Phone>
     <Address NearestAirport="Sky Harbor">
-      <Number>1415</Number>
-      <Street>N Scottsdale Rd</Street>
+      <Number>902</Number>
+      <Street>S Mill Ave</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-
-  <Hotel Rating="4.4">
+     
+  <Hotel Rating="4.4">   
     <Name>Canopy by Hilton Tempe Downtown</Name>
-    <Phone>480-968-8885</Phone>
+    <Phone>480-968-6800</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>108</Number>
-      <Street>E University Dr</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel>
-    <Name>Hyatt House Tempe / Phoenix University</Name>
-    <Phone>480-207-1578</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>601</Number>
-      <Street>E 6th St</Street>
+      <Street>E University D</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
