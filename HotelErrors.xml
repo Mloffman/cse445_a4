@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- ERROR 1: Root should be <Hotels>, but we made it <Hotel> -->
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Error 1: It has the wrong root element name should be 'Hotel' instead of 'Hotels' -->
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
 	<Hotel Rating="4.2">
 		<Name>Westin</Name>
@@ -16,11 +16,10 @@
 		</Address>
 	</Hotel>
 
-	<!-- ERROR 2: Missing REQUIRED attribute (Address/@NearestAirport) -->
-	<Hotel>
+	<Hotel Rating="4.4">
 		<Name>Tempe Mission Palms</Name>
-		<!-- ERROR 3: Missing Phone element -->
-		<Address>
+		<Phone>480-894-1400</Phone>
+		<Address NearestAirport="Sky Harbor">
 			<Number>60</Number>
 			<Street>E 5th St</Street>
 			<City>Tempe</City>
@@ -31,22 +30,18 @@
 
 	<Hotel>
 		<Name>Hyatt Place Tempe / Phoenix Airport</Name>
-		<Phone>480-804-9544</Phone>
-		<Phone>888-591-1234</Phone>
-		<!-- ERROR 4: Address element has no closing tag -->
+		<!-- Error 2: Phone numbers have been removed' -->
 		<Address NearestAirport="Sky Harbor">
 			<Number>1413</Number>
 			<Street>W Rio Salado Pkwy</Street>
 			<City>Tempe</City>
 			<State>AZ</State>
 			<Zip>85281</Zip>
-			<!-- Missing </Address> closing tag -->
-		</Hotel>
+		</Address>
+	</Hotel>
 
 	<Hotel Rating="4.5">
-		<!-- ERROR 5: Two Name elements for one hotel -->
 		<Name>Omni Tempe Hotel at ASU</Name>
-		<Name>Omni Hotel ASU</Name>
 		<Phone>602-794-8600</Phone>
 		<Address NearestAirport="Sky Harbor">
 			<Number>7</Number>
@@ -57,7 +52,6 @@
 		</Address>
 	</Hotel>
 
-	<!-- The rest can stay “normal” (the assignment only asked for 5 errors) -->
 	<Hotel>
 		<Name>SpringHill Suites by Marriott Phoenix Tempe/Airport</Name>
 		<Phone>480-968-8222</Phone>
@@ -87,23 +81,25 @@
 		<Phone>480-967-2300</Phone>
 		<Address NearestAirport="Sky Harbor">
 			<Number>510</Number>
-			<Street> S Forest Ave</Street>
+			<Street>S Forest Ave</Street>
 			<City>Tempe</City>
 			<State>AZ</State>
 			<Zip>85281</Zip>
 		</Address>
 	</Hotel>
 
-	<Hotel Rating="4.6">
-		<Name>Drury Inn &amp; Suites Phoenix Airport</Name>
-		<Phone>602-437-8400</Phone>
-		<Address NearestAirport="Sky Harbor">
-			<Number>3333</Number>
-			<Street>E University Dr</Street>
-			<City>Phoenix</City>
-			<State>AZ</State>
-			<Zip>85034</Zip>
-		</Address>
+	<Hotel Rating="4.3">
+		<Name>Encore Boston Harbor</Name>
+		<Name>Encore</Name>
+		<!-- Error 3: This error is that it has two names' -->
+		<Phone>857-770-7000</Phone>
+		<Address NearestAirport="Boston Logan">
+			<Number>1</Number>
+			<Street>Broadway</Street>
+			<City>Everett</City>
+			<State>MA</State>
+			<Zip>02149</Zip>
+			<!-- Error 4: This has the missing </Address>' -->
 	</Hotel>
 
 	<Hotel>
@@ -133,7 +129,8 @@
 	<Hotel Rating="4.4">
 		<Name>Canopy by Hilton Tempe Downtown</Name>
 		<Phone>480-968-6800</Phone>
-		<Address NearestAirport="Sky Harbor">
+		<Address>
+			<!-- Error 5: The airport name has been removed' -->
 			<Number>108</Number>
 			<Street>E University Dr</Street>
 			<City>Tempe</City>
@@ -142,4 +139,4 @@
 		</Address>
 	</Hotel>
 
-</Hotel>
+</Hotels>
