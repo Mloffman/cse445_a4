@@ -90,13 +90,13 @@
 
   <Hotel Rating="4.3">
     <Name>Encore Boston Harbor</Name>
-    <Phone>602-437-8400</Phone>
+    <Phone>857-770-7000</Phone>
     <Address NearestAirport="Boston Logan">
       <Number>1</Number>
       <Street>Broadway</Street>
       <City>Everett</City>
       <State>MA</State>
-      <Zip>857-770-7000</Zip>
+      <Zip>02149</Zip>
     </Address>
   </Hotel>
 
