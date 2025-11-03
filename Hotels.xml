@@ -89,8 +89,10 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.3">
+  <Hotel Rating="4.3"> 
     <Name>Encore Boston Harbor</Name>
+    <Name>Encore</Name>
+    <!-- Error 3: This error is that it has two names' -->
     <Phone>857-770-7000</Phone>
     <Address NearestAirport="Boston Logan">
       <Number>1</Number>
@@ -98,7 +100,7 @@
       <City>Everett</City>
       <State>MA</State>
       <Zip>02149</Zip>
-    </Address>
+      <!-- Error 4: This has the missing </Address>' -->
   </Hotel>
 
   <Hotel> 
