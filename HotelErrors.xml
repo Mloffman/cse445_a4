@@ -1,7 +1,20 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Error 1: It has the wrong root element name should be 'Hotel' instead of 'Hotels' -->
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Mloffman/cse445_a4/main/Hotels.xsd">
+
+	<Hotel Rating="4.2">
+		<Name>Westin</Name>
+		<Phone>480-968-8885</Phone>
+		<Phone>800-937-8461</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>11</Number>
+			<Street>E 7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
 
 	<Hotel Rating="4.4">
 		<Name>Tempe Mission Palms</Name>
@@ -86,7 +99,7 @@
 			<City>Everett</City>
 			<State>MA</State>
 			<Zip>02149</Zip>
-			</Address>
+			<!-- Error 4: This has the missing </Address>' -->
 	</Hotel>
 
 	<Hotel>
@@ -98,7 +111,7 @@
 			<City>Tempe</City>
 			<State>AZ</State>
 			<Zip>85281</Zip>
-		<!-- Error 4: This has the missing </Address>' -->
+		</Address>
 	</Hotel>
 
 	<Hotel>
@@ -127,7 +140,3 @@
 	</Hotel>
 
 </Hotel>
-
-
-
-
