@@ -111,7 +111,7 @@
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <!-- Error 4: This has the missing </Address> -->
+      </Address>
   </Hotel>
 
   <Hotel>
@@ -140,4 +140,5 @@
   </Hotel>
 
 </Hotel>
+
 
