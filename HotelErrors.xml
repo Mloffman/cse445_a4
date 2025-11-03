@@ -102,7 +102,7 @@
 			<City>Everett</City>
 			<State>MA</State>
 			<Zip>02149</Zip>
-			<!-- Error 4: This has the missing </Address>' -->
+			</Address>
 	</Hotel>
 
 	<Hotel>
@@ -114,7 +114,7 @@
 			<City>Tempe</City>
 			<State>AZ</State>
 			<Zip>85281</Zip>
-		</Address>
+		<!-- Error 4: This has the missing </Address>' -->
 	</Hotel>
 
 	<Hotel>
@@ -143,6 +143,7 @@
 	</Hotel>
 
 </Hotel>
+
 
 
 
