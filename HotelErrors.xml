@@ -3,22 +3,6 @@
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Mloffman/cse445_a4/main/Hotels.xsd">
 
-
-  <Hotel Rating="4.3"> 
-    <Name>Encore Boston Harbor</Name>
-    <Name>Encore</Name>
-    <!-- Error 3: This error is that it has two names' -->
-    <Phone>857-770-7000</Phone>
-    <Address NearestAirport="Boston Logan">
-      <Number>1</Number>
-      <Street>Broadway</Street>
-      <City>Everett</City>
-      <State>MA</State>
-      <Zip>02149</Zip>
-      <!-- Error 4: This has the missing </Address>' -->
-  </Hotel>
-
-
 	<Hotel Rating="4.4">
 		<Name>Tempe Mission Palms</Name>
 		<Phone>480-894-1400</Phone>
