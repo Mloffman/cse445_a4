@@ -2,7 +2,6 @@
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Mloffman/cse445_a4/main/Hotels.xsd">
 
-
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -16,7 +15,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.4"> 
+  <Hotel Rating="4.4">
     <Name>Tempe Mission Palms</Name>
     <Phone>480-894-1400</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -28,7 +27,7 @@
     </Address>
   </Hotel>
 
-  <Hotel> 
+  <Hotel>
     <Name>Hyatt Place Tempe / Phoenix Airport</Name>
     <Phone>480-804-9544</Phone>
     <Phone>888-591-1234</Phone>
@@ -40,8 +39,8 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-        
-  <Hotel Rating="4.5"> 
+
+  <Hotel Rating="4.5">
     <Name>Omni Tempe Hotel at ASU</Name>
     <Phone>602-794-8600</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -52,8 +51,8 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-       
-  <Hotel> 
+
+  <Hotel>
     <Name>SpringHill Suites by Marriott Phoenix Tempe/Airport</Name>
     <Phone>480-968-8222</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -65,7 +64,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.1"> 
+  <Hotel Rating="4.1">
     <Name>Sonesta Select Tempe Downtown</Name>
     <Phone>480-966-2800</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -76,7 +75,7 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-       
+
   <Hotel>
     <Name>Residence Inn by Marriott Tempe Downtown/University</Name>
     <Phone>480-967-2300</Phone>
@@ -89,10 +88,8 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.3"> 
+  <Hotel Rating="4.3">
     <Name>Encore Boston Harbor</Name>
-    <Name>Encore</Name>
-    <!-- Error 3: This error is that it has two names' -->
     <Phone>857-770-7000</Phone>
     <Address NearestAirport="Boston Logan">
       <Number>1</Number>
@@ -100,10 +97,10 @@
       <City>Everett</City>
       <State>MA</State>
       <Zip>02149</Zip>
-      <!-- Error 4: This has the missing </Address>' -->
+    </Address>
   </Hotel>
 
-  <Hotel> 
+  <Hotel>
     <Name>Graduate by Hilton Tempe</Name>
     <Phone>480-967-9431</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -115,7 +112,7 @@
     </Address>
   </Hotel>
 
-  <Hotel > 
+  <Hotel>
     <Name>University Inn Tempe/ASU</Name>
     <Phone>480-966-7221</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -126,8 +123,8 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-     
-  <Hotel Rating="4.4">   
+
+  <Hotel Rating="4.4">
     <Name>Canopy by Hilton Tempe Downtown</Name>
     <Phone>480-968-6800</Phone>
     <Address NearestAirport="Sky Harbor">
