@@ -16,7 +16,7 @@
   </Hotel>
   <Hotel Rating="4.4">
     <Name>Tempe Mission Palms</Name>
-    <!-- ERROR 3: Missing Phone element -->
+       <!-- ERROR 2: The Phone Number has been removed-->
     <Address NearestAirport="Sky Harbor">
       <Number>60</Number>
       <Street>E 5th St</Street>
@@ -29,19 +29,17 @@
     <Name>Hyatt Place Tempe / Phoenix Airport</Name>
     <Phone>480-804-9544</Phone>
     <Phone>888-591-1234</Phone>
-    <!-- ERROR 4: Address element has no closing tag -->
     <Address NearestAirport="Sky Harbor">
       <Number>1413</Number>
       <Street>W Rio Salado Pkwy</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-    <!-- Missing </Address> closing tag -->
+       </Address>   
   </Hotel>
+       
   <Hotel Rating="4.5">
-    <!-- ERROR 5: Two Name elements for one hotel -->
     <Name>Omni Tempe Hotel at ASU</Name>
-    <Name>Omni Hotel ASU</Name>
     <Phone>602-794-8600</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>7</Number>
@@ -86,6 +84,7 @@
   </Hotel>
   <Hotel Rating="4.3">
     <Name>Encore Boston Harbor</Name>
+    <Name>Boston Harbor</Name>     <!-- ERROR 3: Two names are given for the same Hotel -->
     <Phone>857-770-7000</Phone>
     <Address NearestAirport="Boston Logan">
       <Number>1</Number>
@@ -95,6 +94,7 @@
       <Zip>02149</Zip>
     </Address>
   </Hotel>
+       
   <Hotel>
     <Name>Graduate by Hilton Tempe</Name>
     <Phone>480-967-9431</Phone>
@@ -115,12 +115,12 @@
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-    </Address>
+       <!-- ERROR 4: Address element has no closing tag -->
   </Hotel>
   <Hotel Rating="4.4">
     <Name>Canopy by Hilton Tempe Downtown</Name>
     <Phone>480-968-6800</Phone>
-    <!-- ERROR 2: Missing required NearestAirport attribute -->
+    <!-- ERROR 5: Removed the NearestAirport attribute -->
     <Address>
       <Number>108</Number>
       <Street>E University Dr</Street>
@@ -130,3 +130,4 @@
     </Address>
   </Hotel>
 </Hotel>
+
